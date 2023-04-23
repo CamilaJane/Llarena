@@ -291,6 +291,22 @@ header.sticky{
     cursor: pointer;
 }
 
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
