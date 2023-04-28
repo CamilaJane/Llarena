@@ -365,6 +365,21 @@ header.sticky{
     height: 100%;
 }
 
+.contact{
+    background: var(--second-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contact-text{
+    color: var(--text-color);
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
