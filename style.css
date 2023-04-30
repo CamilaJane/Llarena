@@ -508,5 +508,9 @@ form textarea{
         height: auto;
         max-width: 100%;
     }
+
+    .contact{
+        grid-template-columns: 1fr;
+    }
 }
 
