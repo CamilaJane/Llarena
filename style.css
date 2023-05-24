@@ -466,6 +466,16 @@ form textarea{
     cursor: pointer;
 }
 
+.end{
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: var(--bg-color);
+}
+
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
