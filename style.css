@@ -476,6 +476,19 @@ form textarea{
     background: var(--bg-color);
 }
 
+.last-text p{
+    color: var(--second-bg-color);
+    font-size: 14px;
+}
+
+.top i{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--text-color);
+    background: var(--main-color);
+}
+
 @media (max-width: 1480px){
     header{
         padding: 12px 2.5%;
